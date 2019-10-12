@@ -29,6 +29,15 @@
     button {
         margin-top: 10px;
         margin-left: 10px;
+        background-color:#39536A;
+        color:#FFED85;
+    }
+
+    button:hover {
+        background-color:#85CCFF;
+        color: #39536A;
+        border: 2px;
+        border-block-color: #39536A;
     }
 
     img {
@@ -36,20 +45,24 @@
         width: 400px;
     }
 
+    #largerText {
+  height: 50px;
+  width: 400px;
+    }
+
   </style>
 </head>
 <header>
   <h1 class="text-center"></h1>
-  <hr>
 </header>
 <body>
     <img src="Get Well Day Care.png">
 <form id="child-info"><div class="rendered-form"><div class="fb-text form-group field-text">
         <label for="name">Child's Name</label><br><input type="text" id="name" required></input><br>
         <label for="DOB">Child's Date of Birth</label><br><input type="date" id="DOB" required></input><br>
-        <label for="symptoms">Symptoms:</label><br><input type="text" id="symptoms" required></input><br>
-        <label for="medications">Medications/Allergies:</label><br><input type="text" id="medicatons"></input><br>
-        <label for="additional">Additional Info:</label></br><input type="text" id="additional"></input><br>
+        <label for="symptoms">Symptoms:</label><br><input type="text" id="largerText" value="Please be as detailed as possible." required></input><br>
+        <label for="medications">Medications/Allergies:</label><br><input type="text" id="largerText" value="Please be as detailed as possible."></input><br>
+        <label for="additional">Additional Info:</label></br><input type="text" id="largerText" value="Is there anything else we should know?"></input><br>
         <label for="firstVisit">First Visit?</label><select><br>
                 <option value="yes">Yes</option>
                 <option value="no">No</option>
@@ -62,6 +75,7 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"></script>
   <script src="app.js"></script>
+  <footer></footer>
 </body>
 
 </html>
