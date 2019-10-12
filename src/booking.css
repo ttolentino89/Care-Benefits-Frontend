@@ -61,3 +61,14 @@ h1 {
     padding-top: 10px;
     align: center;
 }
+
+.container {
+    display: flex;
+  }
+
+.right-half {
+    background-color: #b6701e;
+    display: hidden;
+    flex: 1;
+    padding: 1rem;
+  }

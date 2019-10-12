@@ -1,12 +1,3 @@
-function success() {
-    var x = document.getElementById("rightMenu");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-}
+$(document).ready(function () {
 
-// function clearText() {
-//     document.getElementById("largerText").value = "";
-// }
+}
