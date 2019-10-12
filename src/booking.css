@@ -1,0 +1,63 @@
+body {
+    font-family: 'Varela Round', sans-serif;
+    background-image: url("Get Well Day Care.png");
+    background-repeat: no-repeat;
+    background-position: right; 
+    background-size: 700px;
+    /* width: 500px;
+    height: 300px; */
+    background-color: #FFED85;
+    color: #39536A;
+    scroll-padding-bottom: 50px;
+  }
+
+  label {
+      margin-left: 10px;
+  }
+
+  input {
+      margin: 10px;
+  }
+
+  option {
+      margin-left: 10px;
+  }
+
+    button {
+        margin-top: 10px;
+        margin-left: 10px;
+        background-color:#39536A;
+        color:#FFED85;
+    }
+
+    button:hover {
+        background-color:#85CCFF;
+        font-size: 20px;
+        color: #39536A;
+        border: 2px;
+        border-block-color: #39536A;
+    }
+
+    img {
+        height: 200px;
+        width: 400px;
+        padding-right: 10px;
+    }
+
+    #largerText {
+  height: 50px;
+  width: 400px;
+    }
+
+.logo {
+    float: right;
+}
+
+.asterisk {
+    color: red;
+}
+
+h1 {
+    padding-top: 10px;
+    align: center;
+}
