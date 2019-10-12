@@ -1,0 +1,13 @@
+/* #parent #popup {
+    display: none;
+  }
+  
+  #parent:hover #popup {
+    display: block;
+  } */
+
+  body {
+    font-family: 'Varela Round', sans-serif;
+    background-color: #FFED85;
+    color: #39536A;
+  }
